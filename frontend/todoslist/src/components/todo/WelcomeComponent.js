@@ -41,15 +41,16 @@ export default class WelcomeComponent extends Component {
   }
 
   retrieveWelcomeMessage() {
-    HelloWorldService.executeHelloWorldService().then((response) => {
+    // HelloWorldService.executeHelloWorldService().then((response) => {
+    //   this.handleSuccessfulResponse(response);
+    // });
+    HelloWorldService.executeHelloWorldBeanService().then((response) => {
       this.handleSuccessfulResponse(response);
     });
     //.catch()
   }
 
-  handleSuccessfulResponse = (response) => {
-    this.setState(() => {
-      return { welcomeMessage: response.data };
-    });
-  };
+  handleSuccessfulResponse(response) {
+    this.setState({ welcomeMessage: response.data.message });
+  }
 }
