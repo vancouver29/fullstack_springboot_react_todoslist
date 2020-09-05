@@ -1,4 +1,4 @@
-package com.vancouver.restfaulwebservices;
+package com.vancouver.restfaulwebservices.helloworld;
 
 public class HelloWorldBean {
 

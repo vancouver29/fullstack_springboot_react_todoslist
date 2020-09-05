@@ -1,4 +1,4 @@
-package com.vancouver.restfaulwebservices;
+package com.vancouver.restfaulwebservices.helloworld;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
