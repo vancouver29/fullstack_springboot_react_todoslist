@@ -6,4 +6,4 @@
 ### ---Todos page---
 <img src="frontend/todoslist/images/todos.png" height="400px" >
 ### ---Add Todo page---
-<img src="frontend/todoslist/images/homepage.png" height="400px" >
+<img src="frontend/todoslist/images/AddTodo.png" height="400px" >
