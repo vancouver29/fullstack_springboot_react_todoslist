@@ -20,7 +20,7 @@ export default class TodoComponent extends Component {
 
   componentDidMount() {
     let username = AuthenticationService.getLoggedInUserName();
-    if (this.state.id == -1) {
+    if (this.state.id === -1) {
       return;
     } else {
     }
